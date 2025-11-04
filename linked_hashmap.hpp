@@ -71,7 +71,7 @@ private:
 	Equal equal;
 
 	static const size_t INITIAL_CAPACITY = 16;
-	static constexpr double LOAD_FACTOR = 0.75;
+	static constexpr double LOAD_FACTOR = 1.5;
 
 	// Helper functions
 	size_t get_bucket_index(const Key &key) const {
